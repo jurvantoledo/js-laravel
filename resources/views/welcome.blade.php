@@ -8,6 +8,7 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
         <!-- Styles -->
         <style>
@@ -19,10 +20,13 @@
                 font-family: 'Nunito', sans-serif;
             }
         </style>
+        <script src="/js/manifest.js"></script>
+        <script src="/js/vendor.js"></script>
+        <script src="/js/app.js"></script>
     </head>
     <body class="antialiased">
-        <h1>Welcome to laravle React App</h1>
-        <div id="example"></div>
+        <h1 class="text-3xl">Welcome to laravel React App</h1>
+        <div id="app"></div>
         <script src="{{ mix('js/app.js') }}"></script>
     </body>
 </html>

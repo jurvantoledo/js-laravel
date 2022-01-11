@@ -13,6 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// All this says is that for any path, we want to load the app.blade.php view. 
+// The app view will load the React component, which will handle all of the routes.
+Route::view('/{path?}', 'app');

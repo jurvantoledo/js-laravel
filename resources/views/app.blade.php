@@ -26,7 +26,7 @@
     </head>
     <body class="antialiased">
         <h1 class="text-3xl">Welcome to laravel React App</h1>
-        <div id="app"></div>
+        <div id="root"></div>
         <script src="{{ mix('js/app.js') }}"></script>
     </body>
 </html>

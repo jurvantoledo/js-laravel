@@ -1,13 +1,11 @@
 import React from "react";
 import ReactDOM from 'react-dom';
-import Example from "./components/Example";
+import PageRoutes from "./PageRoutes"
 
 function App() {
     return (
         <div className="app">
-            <h1 className="text-3xl font-bold underline">Hello world! </h1>
-            <p className="font-bold">App</p>
-            <Example />
+            <PageRoutes />
         </div>
     )
 }

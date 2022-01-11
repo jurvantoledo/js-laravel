@@ -1,0 +1,10 @@
+import React from "react";
+
+export default function Homepage() {
+    return (
+        <div>
+            <h1 className="text-3xl font-bold underline">Hello world! </h1>
+            <p className="font-bold">App</p>
+        </div>
+    )
+}

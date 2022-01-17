@@ -18,11 +18,13 @@ export default function Homepage() {
     }, [])
 
     return (
-        <div>
+        <div className="grid grid-cols-4 gap-4">
             {userData.data.map(user => {
                 return(
-                    <div key={user.id}>
-                        <p>{user.name}</p>
+                    <div key={user.id} className="text-xs border text-center rounded">
+                            <p><b>Name:</b> {user.name}</p>
+                            <p><b>Email:</b> {user.email}</p>
+
                     </div>
                 )
             })}
